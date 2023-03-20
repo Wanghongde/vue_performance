@@ -1,17 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <Freeze /> -->
+
+    <!-- <AllFunc /> -->
+
+    <NorRen />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import Freeze from './components/01-Freeze.vue'
+
+// import AllFunc from './components/02-allCom.vue'
+
+// import NorRen from './components/03-normalRender.vue'
+import NorRen from './components/03-delayRender.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // Freeze,
+
+    // AllFunc,
+
+    NorRen
   }
 }
 </script>
